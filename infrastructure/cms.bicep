@@ -14,3 +14,5 @@ module cmsWebApp 'modules/web-app.bicep' = {
     environment: environment
   }
 }
+
+output appServiceName string = cmsWebApp.outputs.appServiceName

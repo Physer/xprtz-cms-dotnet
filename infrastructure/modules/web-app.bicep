@@ -36,3 +36,5 @@ resource appService 'Microsoft.Web/sites@2024-04-01' = {
     httpsOnly: true
   }
 }
+
+output appServiceName string = appService.name
