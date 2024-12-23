@@ -3,7 +3,7 @@ targetScope = 'subscription'
 param environment string
 
 resource resourceGroup 'Microsoft.Resources/resourceGroups@2024-07-01' = {
-  name: 'rg-xprtz-${environment}'
+  name: 'rg-xprtz-cms-${environment}'
   location: deployment().location
 }
 
